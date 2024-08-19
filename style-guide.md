@@ -76,3 +76,8 @@ Google font
 --transition-short: 250ms ease;
 --transition-long: 500ms ease;
 ```
+https://api.themoviedb.org/3/configuration?api_key=8e0b8b769eb791cffeaaca2b4bdaabfb
+
+8e0b8b769eb791cffeaaca2b4bdaabfb
+
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZTBiOGI3NjllYjc5MWNmZmVhYWNhMmI0YmRhYWJmYiIsIm5iZiI6MTcyMzg4OTQ0MS4wOTM5NDgsInN1YiI6IjY2YzA3NGQ4NDM0Yjk3ZWFmZGMzMTFkYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2kuVQcQeaaDCu6c_TSfoAxp47A6qV5HsjVaHCWjVses

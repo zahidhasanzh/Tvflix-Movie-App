@@ -4,7 +4,7 @@
 * Add event on multiple elements
 */
 
-const addEventOnElements = function(elements, eventType, callback){
+   export const addEventOnElements = function(elements, eventType, callback){
     for(const elem of elements) elem.addEventListener(eventType, callback);
 }
 
@@ -13,7 +13,6 @@ const addEventOnElements = function(elements, eventType, callback){
 */
 
 const searchBox = document.querySelector("[search-box]");
-console.log(searchBox);
 const searchTogglers = document.querySelectorAll("[search-toggler]")
 
 addEventOnElements(searchTogglers, "click", function(){
