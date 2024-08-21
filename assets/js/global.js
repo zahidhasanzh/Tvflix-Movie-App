@@ -4,7 +4,7 @@
 * Add event on multiple elements
 */
 
-   export const addEventOnElements = function(elements, eventType, callback){
+   const addEventOnElements = function(elements, eventType, callback){
     for(const elem of elements) elem.addEventListener(eventType, callback);
 }
 
@@ -18,6 +18,16 @@ const searchTogglers = document.querySelectorAll("[search-toggler]")
 addEventOnElements(searchTogglers, "click", function(){
     searchBox.classList.toggle("active")
 })
+
+
+/**
+ * store movieId in `localstorage`.
+ * when you click any movie card
+ */
+
+ const getMovieDetail = function(movieId){
+    window.localStorage.setItem("movieId", String(movieId))
+}
 
 
 

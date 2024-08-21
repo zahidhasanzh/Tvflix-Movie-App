@@ -1,7 +1,7 @@
 'use strict';
 
 import { api_key, fetchDataFromServer } from "./api.js";
-import { addEventOnElements } from "./global.js"
+
 
 export function sidebar (){
     /**
