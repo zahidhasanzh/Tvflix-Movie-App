@@ -36,7 +36,8 @@ export function sidebar (){
 
             <div class="sidebar-footer">
                 <p class="copyright">
-                    Copyright 2024
+                    Copyright 2024 <br>
+                    Zahid Hasan
                 </p>
                 <img src="./assets/images/tmdb-logo.png" width="130" height="17" alt=" the movie database logo">
             </div>
